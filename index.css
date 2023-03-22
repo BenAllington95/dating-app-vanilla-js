@@ -1,0 +1,98 @@
+/* https://www.schemecolor.com/color-of-love.php */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFB3D1;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+nav {
+    text-align: center;
+    padding: 1em 0;
+    background: #FF89BB;
+}
+
+nav h1 {
+    color: white;
+    text-shadow: 0px 1px 0px rgba(255,0,0,0.4);
+}
+
+#root {
+    padding: 0 1em;
+    }
+
+.image {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+    height: 420px;
+    border-radius: 12px;
+    border-bottom: 6px solid #FF89BB;
+    
+}
+
+.buttons {
+    background: #FF89BB;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 6em; */
+    padding: 1em 0;
+}
+
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile devices go here */
+  
+  .container {
+      width: 100%;
+  }
+  
+}
+
+ion-icon {
+    font-size: 4.5rem;
+    display: inline;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 50%;
+    transition: all 0.2s;
+}
+
+ion-icon[name="close-circle"]{
+    color: white;
+}
+
+ion-icon[name="checkmark-circle"]{
+    color: white;
+}
+
+
+ion-icon:hover {
+    filter: brightness(105%)
+}
+
+/* 	Colors
+#15b9ab	rgb(21, 185, 171)	
+#91d6ea	rgb(145, 214, 234)	
+#0d776e	rgb(13, 119, 110)	
+#6e8c94	rgb(110, 140, 148)	
+#bcc4c4	rgb(188, 196, 196)	
+#3c5b6c	rgb(60, 91, 108)
+ */
